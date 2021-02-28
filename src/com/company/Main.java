@@ -9,5 +9,9 @@ public class Main {
 	    Human human2 = new Human("Janusz", "Kowalski", "PHP Developer", 5000);
 
 	    System.out.println(human1.firstName);
+
+	    Animal tiger = new Animal("Maniek", "Tygrys bengalski", "Samiec");
+
+	    System.out.println(tiger.spieces);
     }
 }
