@@ -54,10 +54,10 @@ public class Main {
 		llama.takeForAWalk();
 		llama.takeForAWalk();
 
-		Car car1 = new Car("GTR", "Nissan", "Black");
+		Car car1 = new Car("GTR", "Nissan", "czarny");
 		human1.car = car1;
 
-		System.out.println(human1.firstName + " ma samochód " + car1.producer + " " + car1.model);
+		System.out.println(human1.firstName + " ma samochód " + car1.producer + " " + car1.model + " który ma kolor " + car1.color);
 
 	}
 }
