@@ -53,5 +53,11 @@ public class Main {
 		tiger.feed();
 		llama.takeForAWalk();
 		llama.takeForAWalk();
+
+		Car car1 = new Car("GTR", "Nissan", "Black");
+		human1.car = car1;
+
+		System.out.println(human1.firstName + " ma samochód " + car1.producer + " " + car1.model);
+
 	}
 }
