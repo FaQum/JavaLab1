@@ -37,4 +37,13 @@ public class Animal {
             System.out.println("Przykro mi");
         }
     }
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", species=" + spieces + '\'' +
+                ", gender='" + gender + '\'' +
+                ", weight=" + weight + '\'' +
+                '}';
+    }
 }

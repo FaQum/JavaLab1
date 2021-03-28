@@ -10,4 +10,13 @@ public class Phone {
         this.model = model;
         this.communication = communication;
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" + '\'' +
+                "brand=" + brand + '\'' +
+                ", 'model=" + model + '\'' +
+                ", 'communication=" + communication +
+                '}';
+    }
 }
