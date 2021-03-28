@@ -13,8 +13,8 @@ public class Main {
 
 	    System.out.println(human1.firstName);
 
-	    Animal tiger = new Animal("Maniek", "Tygrys bengalski", "Samiec", 200);
-	    Animal llama = new Animal("Lamcia", "Lama andyjska", "Samica", 78);
+	    Animal tiger = new Animal("Maniek", "Tygrys bengalski", "Samiec");
+	    Animal llama = new Animal("Lamcia", "Lama andyjska", "Samica");
 
 	    System.out.println(tiger.spieces);
 
@@ -24,6 +24,7 @@ public class Main {
 	    System.out.println(phone1.brand +" "+ phone1.model);
 	    System.out.println(phone2.brand +" "+ phone2.model);
 
+	    /*
 	    Animal animalWithMaxWeight = tiger.weight > llama.weight ? tiger : llama;
 	    	System.out.println("Najcięższym zwierzęciem jest "+ animalWithMaxWeight.name + " i waży " + animalWithMaxWeight.weight + " kg");
 
@@ -38,6 +39,8 @@ public class Main {
 				append(animalWithMaxWeight.weight);
 		System.out.println(animaldesc);
 
+	     */
+
 		ArrayList<Human> humanlist = new ArrayList<>();
 		humanlist.add(human1);
 		humanlist.add(human2);
@@ -46,5 +49,9 @@ public class Main {
 		for(Human human : humanlist) {
 			System.out.println(human.firstName);
 		}
+
+		tiger.feed();
+		llama.takeForAWalk();
+		llama.takeForAWalk();
 	}
 }
